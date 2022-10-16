@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "SoDo Sans SemiBold";
+    src: url("../fonts/d7e8a95865396cddca89b00080d2cba6.eot");
+    /* IE9*/
+    src: url("../fonts/d7e8a95865396cddca89b00080d2cba6.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/d7e8a95865396cddca89b00080d2cba6.woff2") format("woff2"),
+        /* chrome firefox */
+        url("../fonts/d7e8a95865396cddca89b00080d2cba6.woff") format("woff"),
+        /* chrome firefox */
+        url("../fonts/d7e8a95865396cddca89b00080d2cba6.ttf") format("truetype"),
+        /* chrome firefox opera Safari, Android, iOS 4.2+*/
+        url("http://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold") format("svg");
+    /* iOS 4.1- */
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: "SoDo Sans SemiBold";
+}
+.overflow-style-none::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.overflow-style-none {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
